@@ -9,7 +9,16 @@
     "installed_plugins": {
         "cordova-plugin-whitelist": {
             "PACKAGE_NAME": "com.example.hello"
+        },
+        "cordova-plugin-camera": {
+            "CAMERA_USAGE_DESCRIPTION": "Marc wants to use your camera",
+            "PHOTOLIBRARY_USAGE_DESCRIPTION": "Marc wants to access your library",
+            "PACKAGE_NAME": "com.example.hello"
         }
     },
-    "dependent_plugins": {}
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "com.example.hello"
+        }
+    }
 }
